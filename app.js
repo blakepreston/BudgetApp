@@ -310,6 +310,13 @@ var controller = (function (budgetCtrl, UICtrl) {
       }
     });
 
+    
+    document.getElementById("enterInfo").addEventListener("click", function (event) {
+      if (true) {
+        ctrlAddItem();
+      }
+    });
+
     document
       .querySelector(DOM.container)
       .addEventListener("click", ctrlDeleteItem);
